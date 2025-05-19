@@ -39,8 +39,8 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  As a seasoned designer always on the lookout for innovative
-                  tools, Framer.com instantly grabbed my attention.
+                  The voice agent felt like a real hiring manager. It helped me handle
+                  tough behavioral questions without freezing up in my actual interview.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar1} alt="Avatar" className="h-12 w-12" />
@@ -53,8 +53,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Our productivity has skyrocketed since we started using this
-                  tool.
+                  I’ve tried LeetCode and mock sites, but PrepBettr actually
+                  told me why my solution worked or didn’t. Huge confidence boost.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar6} alt="Avatar" className="h-12 w-12" />
@@ -67,8 +67,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  This app has completely transformed how I manage my projects
-                  and deadlines.
+                  As someone switching from sales to marketing,
+                  PrepBettr helped me articulate my past experience for the new role. Super helpful.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar3} alt="Avatar" className="h-12 w-12" />
@@ -83,8 +83,8 @@ const Testimonials = () => {
             <div>
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  I was amazed at how quickly we were able to integrate this app
-                  into our workflow.
+                  The system design sandbox made me feel prepared for the onsite round.
+                  The feedback was better than what I got from peers.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar7} alt="Avatar" className="h-12 w-12" />
@@ -97,9 +97,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Planning and executing events has never been easier. This app
-                  helps me keep track of all the moving parts, ensuring nothing
-                  slips through the cracks.
+                  I love that it tailored everything to my specific role and tech stack.
+                  No wasted time, just focused prep.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar2} alt="Avatar" className="h-12 w-12" />
@@ -112,8 +111,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  The customizability and integration capabilities of this app
-                  are top-notch.
+                  PrepBettr helped me overcome my fear of speaking during interviews.
+                  The voice feedback was a game changer.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar5} alt="Avatar" className="h-12 w-12" />
@@ -128,8 +127,8 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Adopting this app for our team has streamlined our project
-                  management and improved communication across the board.
+                  Daily practice reminders kept me consistent.
+                  I prepped a little each day and landed my first job out of college.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar4} alt="Avatar" className="h-12 w-12" />
@@ -142,8 +141,7 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  With this app, we can easily assign tasks, track progress, and
-                  manage documents all in one place.
+                  Resume feedback, mock interviews, coding problems — it’s like having a full prep team in one app.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar8} alt="Avatar" className="h-12 w-12" />
@@ -156,8 +154,7 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Its user-friendly interface and robust features support our
-                  diverse needs.
+                  It didn’t just give me questions, it gave me coaching. That made all the difference.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar9} alt="Avatar" className="h-12 w-12" />
@@ -174,8 +171,8 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  As a seasoned designer always on the lookout for innovative
-                  tools, Framer.com instantly grabbed my attention.
+                  PrepBettr helped me practice not just answers, but how to deliver them.
+                  I finally stopped rambling in interviews.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar1} alt="Avatar" className="h-12 w-12" />
@@ -188,8 +185,7 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Our productivity has skyrocketed since we started using this
-                  tool.
+                  The real-time feedback after coding tests saved me hours of second-guessing.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar6} alt="Avatar" className="h-12 w-12" />
@@ -202,8 +198,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  This app has completely transformed how I manage my projects
-                  and deadlines.
+                  As a bootcamp grad, I wasn’t sure where to start.
+                  PrepBettr gave me structure, confidence, and the right challenges.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar3} alt="Avatar" className="h-12 w-12" />
@@ -218,8 +214,8 @@ const Testimonials = () => {
             <div>
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  I was amazed at how quickly we were able to integrate this app
-                  into our workflow.
+                  Having mock interviews I could do anytime, without scheduling stress,
+                  made prep so much more flexible.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar7} alt="Avatar" className="h-12 w-12" />
@@ -232,9 +228,7 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Planning and executing events has never been easier. This app
-                  helps me keep track of all the moving parts, ensuring nothing
-                  slips through the cracks.
+                  I was laid off and overwhelmed. PrepBettr gave me a roadmap and helped me feel in control again.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar2} alt="Avatar" className="h-12 w-12" />
@@ -247,8 +241,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  The customizability and integration capabilities of this app
-                  are top-notch.
+                  Interviewing in my second language was tough, but PrepBettr’s
+                  voice feedback helped me improve fluency and pacing.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar5} alt="Avatar" className="h-12 w-12" />
@@ -263,8 +257,8 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Adopting this app for our team has streamlined our project
-                  management and improved communication across the board.
+                  This platform is gold for product roles. It covered strategy,
+                  design, and communication in one place.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar4} alt="Avatar" className="h-12 w-12" />
@@ -277,8 +271,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  With this app, we can easily assign tasks, track progress, and
-                  manage documents all in one place.
+                  Flashcards, quizzes, and mock questions kept me engaged without burnout.
+                  Best interview prep I’ve tried.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar8} alt="Avatar" className="h-12 w-12" />
@@ -291,8 +285,8 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Its user-friendly interface and robust features support our
-                  diverse needs.
+                  Being able to simulate real interviews with voice and video helped me break
+                  through my interview anxiety.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar9} alt="Avatar" className="h-12 w-12" />
