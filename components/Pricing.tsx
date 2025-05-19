@@ -31,7 +31,7 @@ const Pricing = () => {
           </button>
           <div className="flex flex-col gap-6">
             <div>
-              <IoMdCheckmark className="inline mr-2" /> 3 AI voice interviews/month
+              <IoMdCheckmark className="inline mr-2" /> 5 AI voice interviews/month
             </div>
             <div>
               <IoMdCheckmark className="inline mr-2" /> 5 coding challenges/month
