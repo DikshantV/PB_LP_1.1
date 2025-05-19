@@ -10,7 +10,7 @@ const ProductCard = () => {
           Everything you need
         </div>
         <div className="text-3xl md:text-4xl lg:text-5xl py-6 font-bold tracking-tighter text-center bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text">
-          Streamlined for easy management
+          Prep smarter,<br />one feature at a time.
         </div>
 
         <div className="text-center text-lg mb-8 md:text-xl">
@@ -24,22 +24,21 @@ const ProductCard = () => {
         <div className="shadow-2xl rounded-xl flex justify-center items-center flex-col p-8 max-w-[400px]">
           <Image src={Helix} alt="Helix" className="pb-4" />
           <div className="text-2xl font-bold pb-3 text-center">
-            Integration ecosystem
+            Role-Specific Drills
           </div>
           <div className="text-center">
-            Enhance your productivity by connecting with your favorite tools,
-            keeping all your essentials in one place.
+            Access focused modules, flashcards, and mock scenarios
+            aligned to your target position—technical or non-technical.
           </div>
         </div>
 
         <div className="shadow-2xl rounded-xl flex justify-center items-center flex-col p-8 max-w-[400px]">
           <Image src={Cube} alt="Cube" className="pb-4" />
           <div className="text-2xl font-bold pb-3 text-center">
-            Goal setting and tracking
+            System Design Sandbox
           </div>
           <div className="text-center">
-            Define and track your goals, breaking down objectives into
-            achievable tasks to keep your targets in sight.
+            Practice system design questions with AI feedback on scalability, tradeoffs, and bottlenecks.
           </div>
         </div>
       </div>

@@ -29,17 +29,17 @@ const Hero = () => {
             Version 2.0 is here
           </div>
           <div className="text-5xl md:text-7xl font-black my-7 bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text tracking-tighter">
-            Pathway to productivity
+            Interview Confidently.
           </div>
           <div className="text-xl lg:text-2xl tracking-tighter opacity-85">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress, motivate your efforts, and celebrate your successes.
+            Voice interviews. Coding challenges.
+            Personalized prep to help you perform with confidence.
           </div>
 
           <div className="flex items-center gap-3 mt-6 text-lg">
-            <Button text="Get for free" />
+            <Button text="Sign Up" />
             <div className="cursor-pointer hover:underline">
-              Learn more
+              Try Voice Agent Demo
               <FaArrowRight className="h-3 w-3 inline ml-2" />
             </div>
           </div>

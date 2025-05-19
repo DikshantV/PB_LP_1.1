@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "@/public/assests/logo.png";
+import Logo from "@/public/assests/logo.svg";
 import { FaBars } from "react-icons/fa";
 import Button from "./Button";
 
@@ -17,7 +17,7 @@ const Header = () => {
             <a href="#">Features</a>
           </li>
           <li>
-            <a href="#">Customers</a>
+            <a href="#">Pricing</a>
           </li>
           <li>
             <a href="#">Updates</a>
@@ -25,7 +25,7 @@ const Header = () => {
           <li>
             <a href="#">Help</a>
           </li>
-          <Button text="Get for free" />
+          <Button text="Dashboard" />
         </ul>
       </nav>
     </header>

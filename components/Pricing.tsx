@@ -7,24 +7,23 @@ const Pricing = () => {
     <div className="mb-8">
       <div className="flex flex-col items-center font-medium mt-16 mb-12 px-12 mx-auto max-w-[550px] ">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
-          Boost your productivity
+          Our pricing
         </div>
         <div className="text-3xl md:text-4xl lg:text-5xl py-6 font-bold tracking-tighter text-center bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text">
-          A more effective way to track progress
+          Pricing That Grows With You
         </div>
 
         <div className="text-center text-lg mb-8 md:text-xl">
-          Effortlessly turn your ideas into a fully functional, responsive,
-          no-code SaaS website in just minutes with the set of free components
-          for Framer.
+          From casual prep to full-scale readiness, PrepBettr offers flexible plans for every stage of your journey.
+          Choose the plan that fits your goals and start leveling up today.
         </div>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center lg:items-end justify-center pb-20 gap-8">
         <div className="shadow-xl border-gray-100 border-2 rounded-2xl p-8">
-          <div className="font-bold text-gray-500">Free</div>
+          <div className="font-bold text-gray-500">Individual</div>
           <div className="py-8">
-            <span className="font-extrabold text-5xl">$0</span>
+            <span className="font-extrabold text-5xl">$29</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
           <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
@@ -32,20 +31,19 @@ const Pricing = () => {
           </button>
           <div className="flex flex-col gap-6">
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Up to 5 project members
+              <IoMdCheckmark className="inline mr-2" /> 3 AI voice interviews/month
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
-              projects
+              <IoMdCheckmark className="inline mr-2" /> 5 coding challenges/month
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> 2GB storage
+              <IoMdCheckmark className="inline mr-2" /> Basic personalized path
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Integrations
+              <IoMdCheckmark className="inline mr-2" /> Basic performance tracking
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Basic support
+              <IoMdCheckmark className="inline mr-2" /> 10 AI-generated flashcards
             </div>
           </div>
         </div>
@@ -58,7 +56,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className="py-8">
-            <span className="font-extrabold text-5xl">$9</span>
+            <span className="font-extrabold text-5xl">$69</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
           <button className="text-black font-medium mb-8 bg-white py-1.5 w-full rounded-lg cursor-pointer">
@@ -66,69 +64,66 @@ const Pricing = () => {
           </button>
           <div className="flex flex-col gap-6">
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Up to 50 project members
+              <IoMdCheckmark className="inline mr-2" /> Unlimited voice interviews
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
-              projects
+              <IoMdCheckmark className="inline mr-2" /> Unlimited coding practice
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> 50GB storage
+              <IoMdCheckmark className="inline mr-2" /> Full personalized interview paths
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Integrations
+              <IoMdCheckmark className="inline mr-2" />  Follow-up Drill Mode
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Priority support
+              <IoMdCheckmark className="inline mr-2" /> Analytics & weekly updates
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Advanced support
+              <IoMdCheckmark className="inline mr-2" /> Role insights with market trends
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Expert support
+              <IoMdCheckmark className="inline mr-2" /> System Design Sandbox
             </div>
           </div>
         </div>
         <div className="shadow-xl border-gray-100 border-2 rounded-2xl p-8">
           <div className="font-bold text-gray-500">Business</div>
           <div className="py-8">
-            <span className="font-extrabold text-5xl">$19</span>
-            <span className="font-semibold text-gray-600">/month</span>
+            <span className="font-extrabold text-2xl">Custom Pricing</span>
           </div>
           <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
-            Sign up now
+            Talk to us
           </button>
           <div className="flex flex-col gap-6">
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Up to 50 project members
+              <IoMdCheckmark className="inline mr-2" /> Everything in Pro
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
-              projects
+              <IoMdCheckmark className="inline mr-2" /> Admin dashboard with cohort-level analytics
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> 200GB storage
+              <IoMdCheckmark className="inline mr-2" /> Curriculum & LMS integrations
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Integrations
+              <IoMdCheckmark className="inline mr-2" /> Centralized onboarding for team members
             </div>
             <div>
               <IoMdCheckmark className="inline mr-2" /> Dedicated account
               manager
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Custom fields
+              <IoMdCheckmark className="inline mr-2" /> Early access to new features
             </div>
             <div>
               <IoMdCheckmark className="inline mr-2" />
-              Advanced analytics
+              Collaborative interview resources
             </div>
             <div>
               <IoMdCheckmark className="inline mr-2" />
-              Export capabilities
+              Multi-language support (beta)
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> API access
+              <IoMdCheckmark className="inline mr-2" />  API access for internal platforms
             </div>
             <div>
               <IoMdCheckmark className="inline mr-2" /> Advanced security
