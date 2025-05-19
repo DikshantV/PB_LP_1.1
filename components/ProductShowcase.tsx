@@ -1,6 +1,6 @@
 "use client";
 
-import ProductImage from "@/public/assests/Product Image.png";
+import ProductImage from "@/public/assests/Product Image1.png";
 import Pyramid from "@/public/assests/pyramid.png";
 import Tube from "@/public/assests/tube.png";
 import { motion, useScroll, useTransform } from "framer-motion";
