@@ -23,9 +23,9 @@ export default function RootLayout({
           <span className="hidden sm:inline pr-2 opacity-80">
             Ace Every Interview with AI-Powered Precision
           </span>
-          <span className="pr-1">
+          <a href="https://prep-bettr.vercel.app/sign-up" target="_blank" rel="noopener noreferrer" className="pr-1 hover:underline">
             Get started today <FaArrowRight className="inline h-2 w-2" />
-          </span>
+          </a>
         </div>
         {children}
       </body>

@@ -27,7 +27,7 @@ const Pricing = () => {
             <span className="font-semibold text-gray-600">/month</span>
           </div>
           <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
-            Get started for free
+            Get started
           </button>
           <div className="flex flex-col gap-6">
             <div>

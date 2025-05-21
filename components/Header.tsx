@@ -22,7 +22,11 @@ const Header = () => {
           <li>
             <a href="#testimonials">Testimonials</a>
           </li>
-          <Button text="Dashboard" />
+          <li>
+            <a href="https://prep-bettr.vercel.app/sign-in" target="_blank" rel="noopener noreferrer">
+              <Button text="Dashboard" />
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

@@ -17,7 +17,7 @@ const Footer = () => {
         <Image src={Logo} alt="Logo" className="cursor-pointer" />
         <div>
           <div className="font-semibold text-white underline text-lg">
-            <a href="https://github.com/DikshantV">
+            <a href="https://prep-bettr.vercel.app/sign-up" target="_blank" rel="noopener noreferrer">
               PrepBettr<MdOutlineArrowOutward className="inline"  />
             </a>
           </div>
