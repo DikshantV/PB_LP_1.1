@@ -11,19 +11,16 @@ const Header = () => {
       <nav className="hidden md:block">
         <ul className="flex gap-6 items-center">
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="#features">Features</a>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <a href="#pricing">Pricing</a>
           </li>
           <li>
-            <a href="#">Updates</a>
-          </li>
-          <li>
-            <a href="#">Help</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <Button text="Dashboard" />
         </ul>

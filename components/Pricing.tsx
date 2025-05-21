@@ -4,7 +4,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const Pricing = () => {
   return (
-    <div className="mb-8">
+    <div id="pricing" className="mb-8">
       <div className="flex flex-col items-center font-medium mt-16 mb-12 px-12 mx-auto max-w-[550px] ">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
           Our pricing

@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 
 const Testimonials = () => {
   return (
-    <div className="pt-12">
+    <div id="testimonials" className="pt-12">
       <div className="flex flex-col items-center px-28 pb-16">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl font-semibold border-slate-300/80">
           Testimonials
