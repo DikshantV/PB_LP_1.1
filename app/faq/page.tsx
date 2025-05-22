@@ -9,7 +9,7 @@ export default function FAQPage() {
         </div>
         <div>
           <h2 className="font-bold text-xl mb-2">Who can use PrepBettr?</h2>
-          <p>Anyone preparing for technical interviews, from students to experienced professionals, can benefit from PrepBettr's tailored features and insights.</p>
+          <p>Anyone preparing for technical interviews, from students to experienced professionals, can benefit from PrepBettr&apos;s tailored features and insights.</p>
         </div>
         <div>
           <h2 className="font-bold text-xl mb-2">What makes PrepBettr different?</h2>
