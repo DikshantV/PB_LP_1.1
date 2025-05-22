@@ -40,10 +40,10 @@ const Hero = () => {
             <a href="https://prep-bettr.vercel.app/sign-up" target="_blank" rel="noopener noreferrer">
               <Button text="Sign Up" />
             </a>
-            <div className="cursor-pointer hover:underline">
+            <a href="https://prep-bettr.vercel.app/sign-up" target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:underline">
               Try Voice Agent Demo
               <FaArrowRight className="h-3 w-3 inline ml-2" />
-            </div>
+            </a>
           </div>
         </div>
 

@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import {FaGithub} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -26,12 +27,14 @@ const Footer = () => {
   </span>
         </div>
         <div className="flex gap-4 text-2xl cursor-pointer">
-          <FaXTwitter className="hover:scale-125" />
-          <AiFillInstagram className="hover:scale-125" />
-          <FaPinterest className="hover:scale-125" />
-          <FaLinkedin className="hover:scale-125" />
-          <FaTiktok className="hover:scale-125" />
+          <a href="https://github.com/DikshantV" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="hover:scale-125" />
+          </a>
+          <a href="https://www.linkedin.com/in/dikshant-vashistha-bb632112a/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="hover:scale-125" />
+          </a>
           <FaYoutube className="hover:scale-125" />
+          <FaXTwitter className="hover:scale-125" />
         </div>
         <div className="text-sm text-gray-400">
           &copy; 2025 PrepBettr. All rights reserved.
@@ -39,23 +42,22 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Product</div>
-        <div className="cursor-pointer text-gray-300/85">Features</div>
-        <div className="cursor-pointer text-gray-300/85">Integrations</div>
-        <div className="cursor-pointer text-gray-300/85">Updates</div>
-        <div className="cursor-pointer text-gray-300/85">FAQ</div>
-        <div className="cursor-pointer text-gray-300/85">Pricing</div>
+        <a href="/features" className="cursor-pointer text-gray-300/85 hover:underline">Features</a>
+        <a href="/integrations" className="cursor-pointer text-gray-300/85 hover:underline">Integrations</a>
+        <a href="/updates" className="cursor-pointer text-gray-300/85 hover:underline">Updates</a>
+        <a href="/faq" className="cursor-pointer text-gray-300/85 hover:underline">FAQ</a>
+        <a href="/pricing" className="cursor-pointer text-gray-300/85 hover:underline">Pricing</a>
       </div>
       <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Company</div>
-        <div className="cursor-pointer text-gray-300/85">About</div>
-        <div className="cursor-pointer text-gray-300/85">Blog</div>
-        <div className="cursor-pointer text-gray-300/85">Contact</div>
+        <a href="/about" className="cursor-pointer text-gray-300/85 hover:underline">About</a>
+        <a href="/contact" className="cursor-pointer text-gray-300/85 hover:underline">Contact</a>
       </div>
       <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Legal</div>
-        <div className="cursor-pointer text-gray-300/85">Privacy </div>
-        <div className="cursor-pointer text-gray-300/85">Terms</div>
-        <div className="cursor-pointer text-gray-300/85">Security</div>
+        <a href="/privacy" className="cursor-pointer text-gray-300/85 hover:underline">Privacy</a>
+        <a href="/terms" className="cursor-pointer text-gray-300/85 hover:underline">Terms</a>
+        <a href="/security" className="cursor-pointer text-gray-300/85 hover:underline">Security</a>
       </div>
     </div>
 

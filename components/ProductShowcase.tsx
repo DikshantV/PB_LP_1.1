@@ -5,11 +5,34 @@ import Pyramid from "@/public/assests/pyramid.png";
 import Tube from "@/public/assests/tube.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { GoBell, GoGoal } from "react-icons/go";
 import { LuLeaf } from "react-icons/lu";
 import { MdLockOutline } from "react-icons/md";
+
+const featureDetails = [
+  {
+    title: "Voice-Based Mock Interviews",
+    detail:
+      "Engage in realistic, AI-powered voice interviews that simulate real interview scenarios. Receive instant feedback on your speaking style, tone, pacing, and clarity to help you improve your communication skills and boost your confidence.",
+  },
+  {
+    title: "Personalized Interview Paths",
+    detail:
+      "Get a tailored interview preparation plan based on your role, experience, and preferred tech stack. Our AI curates questions and challenges that match your goals, ensuring efficient and focused prep.",
+  },
+  {
+    title: "Smart Coding Interface",
+    detail:
+      "Solve coding problems in a real-time, interactive environment. Receive AI-powered hints, code reviews, and feedback to sharpen your problem-solving skills and ace technical interviews.",
+  },
+  {
+    title: "Real-Time Feedback & Insights",
+    detail:
+      "Track your progress with actionable, AI-driven insights. Identify strengths and areas for improvement, and monitor your readiness for interviews with detailed analytics.",
+  },
+];
 
 const ProductShowcase = () => {
   const sectionRef = useRef(null);
@@ -20,6 +43,8 @@ const ProductShowcase = () => {
   });
 
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
+
+  const [hoverTab, setHoverTab] = useState<{ title: string; detail: string } | null>(null);
 
   return (
     <div
@@ -61,50 +86,45 @@ const ProductShowcase = () => {
       </div>
 
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-20 max-w-[1400px] lg:px-28">
-        <div className="mt-16">
-          <LuLeaf className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Voice-Based Mock Interviews</div>
-          <div className="text-lg my-2">
-            Practice realistic mock interviews with our AI voice agent and get feedback on tone, pacing, and clarity.
+        {[0, 1, 2, 3].map((idx) => (
+          <div className="mt-16" key={idx}>
+            {idx === 0 && <LuLeaf className="text-2xl mb-3" />}
+            {idx === 1 && <GoGoal className="text-2xl mb-3" />}
+            {idx === 2 && <MdLockOutline className="text-2xl mb-3" />}
+            {idx === 3 && <GoBell className="text-2xl mb-3" />}
+            <div className="font-bold text-2xl">{featureDetails[idx].title}</div>
+            <div className="text-lg my-2">
+              {featureDetails[idx].detail.split(".")[0] + "."}
+            </div>
+            <button
+              className="text-lg font-medium flex items-center gap-1 text-blue-700 hover:underline focus:outline-none"
+              onClick={() => setHoverTab(featureDetails[idx])}
+            >
+              Learn more <FaArrowRight className="inline h-3 w-3" />
+            </button>
           </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
-        </div>
-
-        <div className="mt-16">
-          <GoGoal className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Personalized Interview Paths</div>
-          <div className="text-lg my-2">
-            Get custom prep plans based on your role, experience, and tech stack.
-          </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
-        </div>
-
-        <div className="mt-16">
-          <MdLockOutline className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Smart Coding Interface</div>
-          <div className="text-lg my-2">
-            Solve coding problems in real time with AI-powered feedback and insights.
-          </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
-        </div>
-
-        <div className="mt-16">
-          <GoBell className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Real-Time Feedback & Insights</div>
-          <div className="text-lg my-2">
-            Track your progress and improve with AI-driven insights.
-          </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
-        </div>
+        ))}
       </div>
+      {hoverTab && (
+        <div
+          className="fixed z-50 top-0 left-0 w-screen h-screen flex items-start justify-center"
+          onClick={() => setHoverTab(null)}
+          style={{ background: "rgba(0,0,0,0.08)" }}
+        >
+          <div
+            className="mt-24 bg-white shadow-xl rounded-2xl p-7 w-[90vw] max-w-md border border-blue-200 animate-fade-in font-medium text-base md:text-lg text-[#001E80]"
+            style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.18)", fontFamily: 'inherit' }}
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="font-bold text-2xl md:text-2xl text-transparent bg-gradient-to-b from-black to-[#002499] bg-clip-text tracking-tighter mb-3">
+              {hoverTab.title}
+            </div>
+            <div className="text-[#222] text-base md:text-lg leading-relaxed opacity-90">
+              {hoverTab.detail}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
